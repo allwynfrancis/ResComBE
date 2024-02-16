@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const { type } = require("@testing-library/user-event/dist/type");
 const { User } = require("../models/user");
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
